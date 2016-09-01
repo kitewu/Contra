@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="hearders">
+      <UniqueIdentifier>{f18f8e10-c8cc-446c-907c-0430888ffd27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="contra">
+      <UniqueIdentifier>{d971aa21-afc7-4772-b063-897405b88aef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="functions.h">
+      <Filter>hearders</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics.h">
+      <Filter>hearders</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>hearders</Filter>
+    </ClInclude>
+    <ClInclude Include="timing.h">
+      <Filter>hearders</Filter>
+    </ClInclude>
+    <ClInclude Include="enemies.h">
+      <Filter>contra</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>contra</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>contra</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="data.cpp">
+      <Filter>contra</Filter>
+    </ClCompile>
+    <ClCompile Include="enemies.cpp">
+      <Filter>contra</Filter>
+    </ClCompile>
+    <ClCompile Include="funcs.cpp">
+      <Filter>contra</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>contra</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>contra</Filter>
+    </ClCompile>
+    <ClCompile Include="functions.cpp" />
+    <ClCompile Include="graphics.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="timing.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="sound.obj" />
+  </ItemGroup>
+</Project>
